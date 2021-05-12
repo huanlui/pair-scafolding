@@ -12,10 +12,11 @@ In our application, there is a form to register as a user, but the input is not 
 
 ### Acceptance Criteria
 
-- Given that the user does not fill the name, then the validation should not pass. 
-- Given a user that is less than 18 years old, then the validation should not pass. 
-- Given a user that has less than two hobbies, then the validation should not pass. 
-- Given a user that has repeated hobbies, then the validation should not pass. 
+- Given that the user does not fill the name, then the validation should NOT pass. 
+- Given a user that is less than 18 years old, then the validation should NOT pass. 
+- Given a user that has less than two hobbies, then the validation should NOT pass. 
+- Given a user that has repeated hobbies, then the validation should NOT pass. 
+- Given a user with non-empty name, more than 18 years old and with at least two non-repeated hobbies, then the validation DOES pass. 
 
 ### Technical Details
 
